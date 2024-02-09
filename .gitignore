@@ -1,3 +1,10 @@
-**/__pycache__
-**/.vscode
-*.py[cod]
+# **/__pycache__
+# **/.vscode
+# *.py[cod]
+*
+!datatypes/
+!tetris/
+!.gitignore
+!main.py
+!Pipfile
+!Pipfile.lock
