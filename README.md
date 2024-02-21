@@ -5,9 +5,10 @@ A basic implementation of Tetris in Python.
 ## Why Write It?
 
 I originally wrote this in 2019, to learn the basics of
-[pygame][pygame-github].  The project was a little rushed,
-as I wanted to get a feel for how pygame works, and make
-something playable as soon as possible.
+[pygame][pygame-github].  The project was a little
+[rushed](#project-roadmap), as I wanted to get a feel for
+how pygame works, and make something playable as soon as
+possible.
 
 ## Requirements
 
@@ -34,7 +35,8 @@ something playable as soon as possible.
 ## How to Run
 
 Please see the [controls](#controls) on how to play.\
-These steps assume the requirements above are met:
+These steps assume the requirements [above](#requirements)
+are met:
 
 1. Clone this repository and change into the directory,
    if you haven't done so already:
