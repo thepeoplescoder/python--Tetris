@@ -33,6 +33,7 @@ something playable as soon as possible.
 
 ## How to Run
 
+Please see the [controls](#controls) on how to play.\
 These steps assume the requirements above are met:
 
 1. Clone this repository and change into the directory,
@@ -56,6 +57,23 @@ These steps assume the requirements above are met:
    pipenv run python main.py
    ```
 
+## Controls
+
+* _Left and right arrows move side to side_
+* _Down arrow accelerates block downward_
+* _Up arrow rotates clockwise_
+* _Shift+Up arrow rotates counterclockwise_
+* _P pauses the game_
+
+## Current Features
+
+* Lines clear with a randomized greyscale effect
+* An area showing the next block to drop is displayed
+  * _(it also rotates!)_
+* Grid fills with random colors on game over
+* Next block area fills with random shades of purple
+  on game over
+
 ## Project Roadmap
 * Codebase modifications
   * Ultimately make the code more self-documenting
@@ -68,6 +86,9 @@ These steps assume the requirements above are met:
     instead of keeping track of it on the console.
   * Display the number of cleared lines in the game window.
   * Display the number of dropped blocks in the game window.
+* Bugs
+  * Levels advance (and therefore, speed increases) based on
+    score, instead of on number of lines cleared.
 
 [pygame-github]:       https://github.com/pygame/pygame
 [pygame-homepage]:     https://pygame.org/
