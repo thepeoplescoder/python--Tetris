@@ -59,11 +59,11 @@ These steps assume the requirements above are met:
 
 ## Controls
 
-* _Left and right arrows move the current block side to side_
-* _Down arrow accelerates the current block downward_
-* _Up arrow rotates the current block clockwise_
-* _Shift+Up arrow rotates the current block counterclockwise_
-* _P pauses/unpauses the game_
+* Left and right arrows move the current block side to side
+* Down arrow accelerates the current block downward
+* Up arrow rotates the current block clockwise
+* Shift+Up arrow rotates the current block counterclockwise
+* P pauses/unpauses the game
 
 ## Current Features
 
