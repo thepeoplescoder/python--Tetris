@@ -59,11 +59,11 @@ These steps assume the requirements above are met:
 
 ## Controls
 
-* _Left and right arrows move side to side_
-* _Down arrow accelerates block downward_
-* _Up arrow rotates clockwise_
-* _Shift+Up arrow rotates counterclockwise_
-* _P pauses the game_
+* _Left and right arrows move the current block side to side_
+* _Down arrow accelerates the current block downward_
+* _Up arrow rotates the current block clockwise_
+* _Shift+Up arrow rotates the current block counterclockwise_
+* _P pauses/unpauses the game_
 
 ## Current Features
 
@@ -86,6 +86,8 @@ These steps assume the requirements above are met:
     instead of keeping track of it on the console.
   * Display the number of cleared lines in the game window.
   * Display the number of dropped blocks in the game window.
+  * Update the display when the game is paused, such that
+    the player knows without a doubt that the game is paused.
 * Bugs
   * Levels advance (and therefore, speed increases) based on
     score, instead of on number of lines cleared.
